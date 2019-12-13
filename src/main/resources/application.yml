@@ -1,0 +1,45 @@
+spring:
+  #Activiti property configuration
+  activiti:
+    database-schema-update: true #建表规则 表示启动时检查数据库表，不存在则创建
+    history-level: full
+    db-history-used: true
+    check-process-definitions: false # 项目启动自动部署流程图:true-开启（默认）、false-关闭
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/my_workflow?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    initialization-mode: always
+    initial-size: 5
+    minIdle: 5
+    maxActive: 20
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: SELECT 1 FROM DUAL
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+#    filters: stat,wall,log4j
+    maxPoolPreparedStatementPerConnectionSize: 20
+    useGlobalDataSourceStat: true
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
+
+logging:
+  level:
+    com.ascendant: debug
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss.SSS} %clr(-%5p)  %clr(${PID:- }){magenta} --- %clr([%15.15t]){faint} %highlight(%-80.80logger{100}){cyan} %clr(:) %m %n%wEx"
+
+
+mybatis-plus:
+  type-aliases-package: com.jiayuan.workflow.entity
+  mapper-locations: classpath*:mappers/*.xml
+
+
+swagger:
+  enabled: true

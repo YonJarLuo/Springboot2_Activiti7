@@ -26,6 +26,7 @@ SpringBoot2集成Activiti7
 但是如果流程图部署成功后则无需担心，因为流程图数据已经存储到数据库中。
 5. 在配置文件processes目录下，其实只需.bpmn即可进行部署，其它图片只是提供配置参数设置参考
 6. 本项目activiti禁用了自带的securit，不使用它的用户管理功能。所以项目启动后只生成25张表（无用户角色相关表）
+7. 支持分页 特别注意 分页的第一个参数不是页码，是表示从第几行开始！！！ 和mysql的分页是不同的；每页展示10条：listPage(10*pageNum - 10,pageSize); 而且是从0行开始！所以改成动态：listPage(pageSize*pageNum - pageSize,pageSize);
 
 ## 四、其它 ##
 1. 把.bpmn转成.xml，只需复制一份.bpmn然后重命名为.xml即可

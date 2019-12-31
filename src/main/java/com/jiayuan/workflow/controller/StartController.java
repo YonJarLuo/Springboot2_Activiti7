@@ -44,7 +44,7 @@ public class StartController {
         String cbusinessID = UUID.randomUUID().toString().replace("-", "");
 
         //TODO 此处可以根据申请用户的角色来启动不同的流程图，processKey就是流程图.bpmn里面的唯一id的值
-        String processKey = "myProcess_1";
+        String processKey = "myProcess_2";
         //设置提流程的用户ID
         Authentication.setAuthenticatedUserId(business.getUserID());
 

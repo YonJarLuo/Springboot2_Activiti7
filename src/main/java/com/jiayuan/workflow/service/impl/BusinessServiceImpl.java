@@ -9,6 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.Date;
+
 /**
  * @author luoyj
  * @date 2019/12/2.
@@ -28,9 +30,15 @@ public class BusinessServiceImpl extends ServiceImpl<BusinessMapper, Business> i
     }
 
     @Override
-    @Transactional(rollbackFor = Exception.class)
-    public boolean updateStatusByProcessID(String processID,int status) {
+    public boolean updateStatusByProcessID(String processID, int status) {
         return businessDao.updateStatusByProcessID(processID,status);
     }
+
+    @Override
+    @Transactional(rollbackFor = Exception.class)
+    public boolean updateStatusByProcessID2(String processID, int status, Date updateTime, String presentBy) {
+        return businessDao.updateStatusByProcessID2(processID,status,updateTime,presentBy);
+    }
+
 
 }

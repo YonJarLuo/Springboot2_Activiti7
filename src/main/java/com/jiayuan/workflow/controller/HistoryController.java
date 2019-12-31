@@ -33,6 +33,7 @@ public class HistoryController {
     public RestMessgae findProcessByUserId(String userId){
         List<HistoricProcessInstance> historicProcessInstanceList = historyService.createHistoricProcessInstanceQuery()
                 .startedBy(userId).list();
+        //TODO 支持分页
         RestMessgae restMessgae = new RestMessgae();
         ArrayList<Object> list = new ArrayList<>();
         if (historicProcessInstanceList.size() > 0){

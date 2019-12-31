@@ -50,4 +50,8 @@ public class Business extends BaseEntity implements Serializable {
     @ApiModelProperty("流程申请状态,0审核中,1通过,2不通过")
     @TableField(value = "STATUS")
     private Integer status;
+
+    @ApiModelProperty("当前流程处理人")
+    @TableField(value = "PRESENT_BY")
+    private String presentBy;
 }

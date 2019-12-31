@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d3295c7-a07d-43b3-bbef-09888fa39149" name="Default Changelist" comment="" />
+    <list default="true" id="3d3295c7-a07d-43b3-bbef-09888fa39149" name="Default Changelist" comment="增加分页注意事项">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiayuan/workflow/controller/vo/CompleteTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/processes/flow1.bpmn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/processes/flow1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/processes/flow2.bpmn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/processes/flow2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql/WORKFLOW_BUSINESS.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/WORKFLOW_BUSINESS.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiayuan/workflow/controller/HistoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiayuan/workflow/controller/HistoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiayuan/workflow/controller/StartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiayuan/workflow/controller/StartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiayuan/workflow/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiayuan/workflow/controller/TaskController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiayuan/workflow/dao/BusinessMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiayuan/workflow/dao/BusinessMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiayuan/workflow/entity/Business.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiayuan/workflow/entity/Business.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiayuan/workflow/service/BusinessService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiayuan/workflow/service/BusinessService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiayuan/workflow/service/impl/BusinessServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiayuan/workflow/service/impl/BusinessServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiayuan/workflow/utils/RestMessgae.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiayuan/workflow/utils/RestMessgae.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/BusinessMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/BusinessMapper.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +53,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sql" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/processes" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -50,15 +68,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jiayuan.workflow.controller.vo" />
       <recent name="com.jiayuan.workflow.config" />
       <recent name="com.jiayuan.workflow.enums" />
       <recent name="com.jiayuan.workflow.service.impl" />
       <recent name="com.jiayuan.workflow.service" />
-      <recent name="com.jiayuan.workflow.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/sql" />
       <recent name="$PROJECT_DIR$/src/main/resources/processes" />
+      <recent name="$PROJECT_DIR$/sql" />
       <recent name="$PROJECT_DIR$/src/main/resources/mapper" />
       <recent name="$PROJECT_DIR$/src/main/java/com/jiayuan/workflow/entity" />
     </key>
@@ -150,8 +168,22 @@
       <workItem from="1575423333822" duration="4447000" />
       <workItem from="1575509154454" duration="3629000" />
       <workItem from="1576117135918" duration="11972000" />
-      <workItem from="1576200268371" duration="7304000" />
+      <workItem from="1576200268371" duration="8246000" />
+      <workItem from="1576223175515" duration="4383000" />
+      <workItem from="1576478081405" duration="2357000" />
+      <workItem from="1576749232095" duration="194000" />
+      <workItem from="1577168889492" duration="623000" />
+      <workItem from="1577178911666" duration="2306000" />
+      <workItem from="1577757801812" duration="1888000" />
     </task>
+    <task id="LOCAL-00001" summary="调整格式">
+      <created>1576749296073</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576749296073</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +201,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="调整格式" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整格式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

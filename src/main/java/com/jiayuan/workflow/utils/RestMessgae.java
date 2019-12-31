@@ -48,4 +48,11 @@ public class RestMessgae {
         return restMessgae;
     }
 
+    public static  RestMessgae fail(String message){
+        RestMessgae restMessgae = new RestMessgae();
+        restMessgae.setCode("500");
+        restMessgae.setMessage(message);
+        return restMessgae;
+    }
+
 }

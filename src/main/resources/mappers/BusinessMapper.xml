@@ -6,5 +6,9 @@
         update WORKFLOW_BUSINESS set status = #{status}
         where PROCESS_ID = #{processID}
     </update>
+    <update id="updateStatusByProcessID2" parameterType="java.util.Map" >
+        update WORKFLOW_BUSINESS set STATUS = #{status},UPDATE_TIME = #{update},PRESENT_BY = #{presentBy}
+        where PROCESS_ID = #{processID}
+    </update>
 
 </mapper>

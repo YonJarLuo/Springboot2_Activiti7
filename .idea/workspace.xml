@@ -1,26 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d3295c7-a07d-43b3-bbef-09888fa39149" name="Default Changelist" comment="增加分页注意事项">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiayuan/workflow/controller/vo/CompleteTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/processes/flow1.bpmn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/processes/flow1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/processes/flow2.bpmn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/processes/flow2.xml" afterDir="false" />
+    <list default="true" id="3d3295c7-a07d-43b3-bbef-09888fa39149" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SpringBoot2_Activiti7.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SpringBoot2_Activiti7.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql/WORKFLOW_BUSINESS.sql" beforeDir="false" afterPath="$PROJECT_DIR$/sql/WORKFLOW_BUSINESS.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiayuan/workflow/controller/HistoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiayuan/workflow/controller/HistoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiayuan/workflow/controller/StartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiayuan/workflow/controller/StartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiayuan/workflow/controller/TaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiayuan/workflow/controller/TaskController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiayuan/workflow/dao/BusinessMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiayuan/workflow/dao/BusinessMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiayuan/workflow/entity/Business.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiayuan/workflow/entity/Business.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiayuan/workflow/service/BusinessService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiayuan/workflow/service/BusinessService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiayuan/workflow/service/impl/BusinessServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiayuan/workflow/service/impl/BusinessServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiayuan/workflow/utils/RestMessgae.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiayuan/workflow/utils/RestMessgae.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/BusinessMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/BusinessMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jiayuan/workflow/config/MyBatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jiayuan/workflow/config/MyBatisPlusConfig.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,14 +42,20 @@
     </option>
   </component>
   <component name="ProjectId" id="1TpQfeFnuEyERRZLWDgjHpMJQOS" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/processes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -64,7 +66,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -80,18 +82,6 @@
       <recent name="$PROJECT_DIR$/src/main/resources/mapper" />
       <recent name="$PROJECT_DIR$/src/main/java/com/jiayuan/workflow/entity" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.ReanodWorkflowApplication">
     <configuration name="Test01.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -174,7 +164,13 @@
       <workItem from="1576749232095" duration="194000" />
       <workItem from="1577168889492" duration="623000" />
       <workItem from="1577178911666" duration="2306000" />
-      <workItem from="1577757801812" duration="1888000" />
+      <workItem from="1577757801812" duration="2121000" />
+      <workItem from="1578885476648" duration="628000" />
+      <workItem from="1578896842828" duration="167000" />
+      <workItem from="1582342852507" duration="134000" />
+      <workItem from="1585209017809" duration="937000" />
+      <workItem from="1590039610658" duration="111000" />
+      <workItem from="1614308311907" duration="1266000" />
     </task>
     <task id="LOCAL-00001" summary="调整格式">
       <created>1576749296073</created>
@@ -183,28 +179,41 @@
       <option name="project" value="LOCAL" />
       <updated>1576749296073</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="新增表字段PRESENT_BY，流程当前处理人">
+      <created>1577759755947</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577759755947</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="调整格式" />
-    <option name="LAST_COMMIT_MESSAGE" value="调整格式" />
+    <MESSAGE value="新增表字段PRESENT_BY，流程当前处理人" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增表字段PRESENT_BY，流程当前处理人" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="341" y="164" key="SettingsEditor" timestamp="1614309436820">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="341" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1614309436820" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

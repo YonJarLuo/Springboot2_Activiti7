@@ -4,7 +4,7 @@ SpringBoot2集成Activiti7
 ## 一、环境 ##
 - IDEA 2019.2
 - Springboot 2.0.3.RELEASE
-- MybatisPlus 3.1.0
+- MybatisPlus 3.3.2
 - Activiti 7.0.0.Beta2
 - Swagger 2.9.2
 - Lombok 1.16.22
